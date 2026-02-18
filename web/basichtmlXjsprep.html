@@ -1,0 +1,63 @@
+<html>
+
+    <head>
+        <title>form</title>
+    </head>
+
+    <body>
+
+        <h1>simple html form</h1>
+        <p>html form with an input text box and a submit button</p>
+        
+        <form id = "form1" action = "action_page.php">
+            <label for = "forename">Forname:</label>
+            <input type = "text" id = "forename" name = "forename"><br><br>
+            <input type = "submit" id = "Submit" name = "Submit" value = "Submit">
+        </form>
+
+        <button onclick = "myFunction()">Try .js</button>
+        <p id = "output"></p>
+
+        <script>
+
+            function muFunction()
+            {
+                var x = document.getElementById("form1");
+                var text = "";
+                
+                for (var i = 0; i < x.length; ++i)
+                {
+                    data = x.elements[i].value;
+                    
+                    if (data != "Submit")
+                    {
+                        text += "Your name was entered as " + data + ".";
+                    }
+                }
+
+                document.getElementById("output").innerHTML = text;
+            }
+
+        </script>
+
+    </body>
+
+</html>
+
+<!--
+    form controls are inserted into the webpage using the <form> tag
+    the action attribute tells the browser it needs to send any submitted form data to a page on the server called action.php
+    php files handle server processing of form data
+-->
+
+<!--
+    buttons and text boxes are defined with the <input> tag
+    the type attribute determines the type of input - [textbox -> text] , [submit button -> submit]
+    inputs are given unique ids so they can be refered to with js
+-->
+
+<!--
+    <br> -> break line -> new line
+    can write directly to the document using document.write(string goes here)
+    pop-up alert boxes: alert(string goes here)
+-->

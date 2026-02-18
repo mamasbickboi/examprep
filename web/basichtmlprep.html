@@ -1,0 +1,81 @@
+<html> <!--non-visual tag : marks the begin ad end of a document-->
+
+    <!--non-visual tag : contains information about the webpage-->
+    <head>
+        <!--webpage name - text only - required for all-->
+        <title>title goes here</title>
+    </head>
+
+    <!--only 1 allowed, everything else goes i here-->
+    <body>
+        
+        <h1>heading 1</h1> <!--most important heading-->
+        <h2>heading 2</h2>
+        <h3>heading 3</h3>
+<!--    .
+        .
+        .
+        .
+        <h6>headling 6</h6> : least important heading
+-->
+
+        <p>paragraph 1</p>
+        <!--browsers automatically add a single blank line before and after paragraph tags when rendered in a browser-->
+        <p>paragraph 2</p>
+
+        <!--
+            img are not inserted but linked
+            the img tag is used to embed an image in the html document, i.e used as a holding space for the refrenced image
+            requires the image relative directory/path using src
+            alt is used to shwo text if the image can't be loaded for some reason
+            always use height & width to set the diemnsion you want or else the page might flicker when the image loads or produce an undesired resolution
+        -->
+        <p> <img src = "gengar.jpg" alt = "gengar fan pic" height = "200" width = "400" > </p> <!--<p> tag isn't required here-->
+
+        <!--
+            the <a> tag is used to link one webpage to another
+            href attribute is used to specifiy the link's destination
+            by default:
+                unvisited link : blue
+                isited link : purple
+                active link : red
+        -->
+        this <a href = "https://pokemondb.net/pokedex/gengar">highlighted text</a> links to a gengar info page
+
+        <p>Ordered list below of gengar's bad weaknesses (all x2) : </p>
+        <!--
+            <ol> tag defines an ordered list - numerical(by default) or alphabetical
+            <li> tags define the list items
+        -->
+        <ol>
+            <li>ground</li>
+            <li>psychic</li>
+            <li>ghost</li>
+            <li>dark</li>
+        </ol>
+
+        <p>Unordered list below of gengar's good matchups : </p>
+        <!--
+            <ul> tag defines an unordered list - bulleted(by default)
+        -->
+        <ul>
+            <li>normal</li>
+            <li>grass</li>
+            <li>fighting</li>
+            <li>poison</li>
+            <li>bug</li>
+            <li>fairy</li>
+        </ul>
+
+    </body>
+
+</html>
+
+<!--
+    all css and js related below:
+    <link>
+    <div>
+    <form>
+    <input>
+    <script>
+-->

@@ -1,0 +1,47 @@
+/*
+    using separate files makes it easier ot change stuff globally
+    h1, h2, h3, ... stylign is applied to all with the respective tags
+    classes have a '.' preceeding their name
+    id(s) have a '#' preceeding their name
+*/
+
+h1
+{
+    color: red;
+    background-color: yellow;
+}
+
+h2
+{
+    border-style: dotted;
+    border-color: blue;
+    border-width: thick;
+}
+
+h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00ff00
+}
+
+.intro
+{
+    color: red;
+    font-size: 25px;
+}
+
+.main
+{
+    color: green;
+    font-size: 15px;
+}
+
+#orderedList
+{
+    color : yellow;
+}
+
+#bulletedList
+{
+    color: gray;
+}
