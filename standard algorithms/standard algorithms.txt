@@ -1,0 +1,13 @@
+SORTING ALGORITHMS
+bubble
+insertion
+merge
+quick
+
+PATHFINDING ALGORITHMS
+dijkstra
+A*
+
+SEARCHING ALGORITHMS
+binary
+linear
